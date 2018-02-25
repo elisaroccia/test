@@ -27,7 +27,7 @@ addpath('utils/');
 addpath('src/');
 
 FOVRatio = 0.4; % FOVz / FOVy
-nt = 4;         % # temporal phases
+nt = 1;         % # temporal phases
 ny = 180;       % y-dimension
 nz = 60;        % z-dimension
 % create a fully-sampled central region
