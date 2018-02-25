@@ -29,7 +29,7 @@ addpath('src/');
 FOVRatio = 0.4; % FOVz / FOVy
 nt = 4;         % # temporal phases
 ny = 180;       % y-dimension
-nz = 60;        % z-dimension
+nz = 32;        % z-dimension
 % create a fully-sampled central region
 Areg = zpad(removeCorners(ones(24,24)), [ny nz]); 
 % Annular region with 2x1 regular under-sampling
