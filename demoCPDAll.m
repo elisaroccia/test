@@ -26,6 +26,7 @@ cd('..');
 addpath('utils/');
 addpath('src/');
 
+%Giulio
 FOVRatio = 0.4; % FOVz / FOVy
 nt = 1;         % # temporal phases
 ny = 180;       % y-dimension
